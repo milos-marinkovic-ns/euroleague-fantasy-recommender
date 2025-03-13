@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "euroleague-fantasy-recommender"
+version = "0.1.0"
+description = "Euroleague fanstay recommender"
+authors = ["milos-marinkovic-ns <marinkovic.milos.ns@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.2.3"
+pandas = "^2.2.3"
+pyyaml = "^6.0.2"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
